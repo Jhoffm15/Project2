@@ -463,8 +463,6 @@ int main(int argc, char **argv)
     data_pack pack = {111,1.1,"doc",111,123,22,2,5,"dog",17};
     char* atoi_data = malloc(50);
     memset(atoi_data,0,strlen(atoi_data));
-    printf("%s",xor(ab,itoa(pack.healthpoints, atoi_data, 2)));
-    printf("\n");
     store_data(pack);
     store_encrypt(ab, pack);
     char* answer;
