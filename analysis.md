@@ -6,3 +6,6 @@ I can assume since there is a .bmp the key must be created from that, since both
 they are not stored in the .bmp or if they are I'm not worried about it.
 
 I cant get a dissassembler to work on my host computer.
+
+because I made it and I know how to find the key it would be easy to see the varaiables used to create the key. then  I could just make my
+own program to generate the key using the created .bmp
